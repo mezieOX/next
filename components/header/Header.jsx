@@ -9,9 +9,9 @@ import { IconButton } from '@material-ui/core';
 function Header() {
   return (
     <div className="">
-      <div className="flex flex-col flex-wrap">
+      <div className="flex flex-col">
         <div className="order-1">
-          <div className="bg-white relative lg:flex items-center justify-between h-10 sm:h-12 md:h14 lg:h-20  text-black max-w-7xl mx-auto px-4">
+          <div className="bg-white relative lg:flex items-center justify-between h-20 text-black max-w-7xl mx-auto px-4">
             <div className="relative w-14 md:w-20 h-1/2">
               <Image
                 src="/images/images.jpg"
@@ -21,7 +21,7 @@ function Header() {
             </div>
             <div className="mt-5 lg:mt-0 hidden md:block">
               <nav>
-                <ul className="flex items-center space-x-8 capitalize text-lg xl:text-xl text-gray-500 ">
+                <ul className="flex items-center space-x-8 capitalize text-lg xl:text-xl text-gray-500">
                   <li>
                     <Link href="">
                       <a>showcase</a>
@@ -58,13 +58,13 @@ function Header() {
             <div className="md:flex space-x-8 items-center hidden">
               <Button
                 link={''}
-                className="!bg-transparent border text-xl px-3 py-2 font-normal text-gray-500 hidden lg:inline-flex"
+                className="!bg-transparent border text-xl px-3 py-2 font-normal text-gray-500 hidden xl:inline-flex"
               >
                 feedback
               </Button>
               <Button
                 link={''}
-                className="bg-blue-600 text-xl lg:px-5 px-[8%] font-[600] text-white rounded-lg absolute lg:static top-2 right-3 "
+                className="bg-blue-600 text-xl lg:px-5 font-[600] text-white rounded-lg absolute lg:static top-2 right-3 "
               >
                 learn
               </Button>
@@ -77,7 +77,7 @@ function Header() {
                 />
               </div>
             </div>
-            <div className="md:hidden absolute z-40 -top-[15px] right-6">
+            <div className="md:hidden absolute z-40 -top-1 right-6">
               <IconButton>
                 <MenuIcon className="lg:!text-3xl" />
               </IconButton>
