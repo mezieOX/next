@@ -65,7 +65,7 @@ function Header() {
               </Button>
               <Button
                 link={''}
-                className="bg-blue-600 text-meduim md:text-xl lg:px-5 font-[400] md:font-[600] text-white rounded-lg absolute lg:static top-4 md:top-1 lg:top-2 right-14 md:right-20 md:right-4 lg:right-3 px-[20px] py-[5px] lg:py-3"
+                className="bg-blue-600 text-meduim md:text-xl lg:px-5 font-[400] md:font-[600] text-white rounded-lg absolute lg:static top-3 md:top-1 lg:top-2 right-14 md:right-20 md:right-4 lg:right-3 px-2.5 py-1.5 lg:py-3"
               >
                 learn
               </Button>

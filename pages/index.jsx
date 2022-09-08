@@ -6,7 +6,7 @@ import Join from '../components/join/Join';
 function Home() {
   return (
     <div>
-      <div className='sticky top-0'>
+      <div className='sticky top-0 z-40'>
         <Header />
       </div>
       <Join />
