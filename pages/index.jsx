@@ -1,12 +1,18 @@
-import React from 'react'
-import Header from "../components/header/Header"
+import React from 'react';
+import Desc from '../components/desc/Desc';
+import Header from '../components/header/Header';
+import Join from '../components/join/Join';
 
 function Home() {
   return (
     <div>
-     <Header />
+      <div className='sticky top-0'>
+        <Header />
+      </div>
+      <Join />
+      <Desc />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

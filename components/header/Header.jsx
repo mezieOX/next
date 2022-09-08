@@ -12,11 +12,12 @@ function Header() {
       <div className="flex flex-col">
         <div className="order-1">
           <div className="bg-white relative lg:flex items-center justify-between h-20 text-black max-w-7xl mx-auto px-4">
-            <div className="relative w-14 md:w-20 h-1/2">
+            <div className="relative w-14 md:w-20 h-[90%] md:h-1/2">
               <Image
                 src="/images/images.jpg"
                 layout="fill"
                 objectFit="contain"
+                className=""
               />
             </div>
             <div className="mt-5 lg:mt-0 hidden md:block">
@@ -55,20 +56,20 @@ function Header() {
                 </ul>
               </nav>
             </div>
-            <div className="md:flex space-x-8 items-center hidden">
+            <div className="md:flex space-x-8 items-center">
               <Button
                 link={''}
-                className="!bg-transparent border text-xl px-3 py-2 font-normal text-gray-500 hidden xl:inline-flex"
+                className="!bg-transparent border text-xl px-3 py-2 font-normal text-gray-500 hidden xl:inline-flex  hidden"
               >
                 feedback
               </Button>
               <Button
                 link={''}
-                className="bg-blue-600 text-xl lg:px-5 font-[600] text-white rounded-lg absolute lg:static top-2 right-3 "
+                className="bg-blue-600 text-meduim md:text-xl lg:px-5 font-[400] md:font-[600] text-white rounded-lg absolute lg:static top-4 md:top-1 lg:top-2 right-14 md:right-20 md:right-4 lg:right-3 px-[20px] py-[5px] lg:py-3"
               >
                 learn
               </Button>
-              <div className="lg:static absolute top-20 right-4">
+              <div className="hidden md:flex lg:static absolute top-16 right-4">
                 <Image
                   src="/images/download.png"
                   width={30}
@@ -77,7 +78,7 @@ function Header() {
                 />
               </div>
             </div>
-            <div className="md:hidden absolute z-40 -top-1 right-6">
+            <div className="md:hidden absolute z-40 top-2 right-2 md:right-6">
               <IconButton>
                 <MenuIcon className="lg:!text-3xl" />
               </IconButton>
