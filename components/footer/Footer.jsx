@@ -56,7 +56,7 @@ function Footer() {
           </div>
           <div>
               <div></div>
-              <div>Copyright &copy; 2022 Vercel, Inc. All rights reserved.</div>
+              <div className='text-xs text-gray-500 my-10'>Copyright &copy; 2022 Vercel, Inc. All rights reserved.</div>
           </div>
     </div>
   );

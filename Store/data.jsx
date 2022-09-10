@@ -23,7 +23,23 @@ const data = {
     {
       title: 'Incremental Static Regeneration',
       text: 'Add and update statically pre-rendered pages incrementally after build time.',
-    },
+        },
+        {
+            title: 'TypeScript Support',
+            text: 'Automatic TypeScript configuration and compilation.',
+          },
+          {
+            title: 'Fast Refresh',
+            text: 'Fast, reliable live-editing experience, as proven at Facebook scale.',
+          },
+          {
+              title: 'File-system Routing',
+              text: 'Every component in the pages directory becomes a route.',
+          },
+          {
+            title: 'API Routes',
+            text: 'Optionally create API endpoints to provide backend functionality.',
+          },
   ],
 };
 
