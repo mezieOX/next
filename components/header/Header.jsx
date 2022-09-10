@@ -81,7 +81,7 @@ function Header() {
             </div>
             <div>
               <Menu>
-                <div className="md:hidden absolute z-40 top-2 right-2 md:right-6 border border-purple-500 rounded-xl outline-none bg-white">
+                <div className="md:hidden md:right-6 border border-purple-500 rounded-xl outline-none bg-white">
                   <Menu.Button>
                     <IconButton>
                       <MenuIcon className="lg:!text-3xl" />
