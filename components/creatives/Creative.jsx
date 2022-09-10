@@ -1,12 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
+import Button from '../ui/button/Button'
 
-function Craetive() {
+function Creative() {
   return (
       <div>
           <div>
-              <h4>Who's Using Next.js</h4>
-              <p>We're honored some of the most talented creatives out there build with Next.js</p>
+              <h4>Whos Using Next.js</h4>
+              <p>Were honored some of the most talented creatives out there build with Next.js</p>
           </div>
           <div>
               <Image src="/images/" width={120} height={120} />
@@ -22,4 +23,4 @@ function Craetive() {
   )
 }
 
-export default Craetive
+export default Creative

@@ -6,7 +6,7 @@ function Layout({children}) {
   return (
       <div>
           <div className='flex flex-col'><Header /></div>
-          <div classame="flex-grow">{children}</div>
+          <div className="flex-grow">{children}</div>
           <div><Footer /></div>
     </div>
   )
