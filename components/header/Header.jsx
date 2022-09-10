@@ -66,7 +66,7 @@ function Header() {
               </Button>
               <Button
                 link={''}
-                className="!bg-blue-600 text-sm sm:text-meduim md:text-xl lg:px-5 font-[400] md:font-[600] text-white rounded-xl sm:rounded-lg absolute lg:static top-4 md:top-1 lg:top-2 right-16 md:right-20 md:right-4 lg:right-3 px-3 py-2 sm:px-2.5 sm:py-1.5 lg:py-3"
+                className="!bg-blue-600 text-sm sm:text-meduim md:text-xl lg:px-5 font-[400] md:font-[600] text-white rounded sm:rounded-lg absolute lg:static top-4 md:top-1 lg:top-2 right-16 md:right-20 md:right-4 lg:right-3 px-3 py-2 sm:px-2.5 sm:py-1.5 lg:py-3"
               >
                 learn
               </Button>
@@ -81,7 +81,7 @@ function Header() {
             </div>
             <div>
               <Menu>
-                <div className="md:hidden absolute z-40 top-2 right-2 md:right-6 border border-purple-500 rounded-xl">
+                <div className="md:hidden absolute z-40 top-2 right-2 md:right-6 border border-purple-500 rounded-xl outline-none">
                   <Menu.Button>
                     <IconButton>
                       <MenuIcon className="lg:!text-3xl" />
@@ -89,7 +89,7 @@ function Header() {
                   </Menu.Button>
                 </div>
                 <div>
-                  <Menu.Items className="h-[367px] bg-white shadow-inner absolute w-full left-0 font-[500] text-gray-500 pt-2 pb-2 capitalize px-8 flex flex-col h-full justify-between">
+                  <Menu.Items className="h-screen bg-white shadow-inner absolute w-full left-0 font-[500] text-gray-500 pt-2 pb-2 capitalize px-8 flex flex-col h-full justify-between">
                     <Menu.Item>
                       {({ active }) => (
                         <Link href="/learn">
