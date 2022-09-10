@@ -9,7 +9,7 @@ import { IconButton } from '@material-ui/core';
 
 function Header() {
   return (
-    <div className="fixed w-full top-0 z-40 bg-white sm:h-40 mb-2 shadow-md">
+    <div className="fixed w-full top-0 z-50 bg-white sm:h-40 mb-2 shadow-md">
       <div className="flex flex-col">
         <div className="order-1">
           <div className="bg-white relative lg:flex items-center justify-between h-20 text-black max-w-7xl mx-auto px-4">
@@ -23,7 +23,7 @@ function Header() {
             </div>
             <div className="mt-5 lg:mt-0 hidden md:block">
               <nav>
-                <ul className="hidden sm:flex items-center space-x-8 capitalize text-lg xl:text-xl text-gray-500 ">
+                <ul className="hidden sm:flex items-center space-x-8 capitalize text-base xl:text-xl text-gray-500 ">
                   <li>
                     <Link href="">
                       <a>showcase</a>
@@ -75,13 +75,13 @@ function Header() {
                   src="/images/download.png"
                   width={30}
                   height={30}
-                  className="rounded-full"
+                  className="rounded-full "
                 />
               </div>
             </div>
             <div>
               <Menu>
-                <div className="md:hidden absolute z-40 top-2 right-2 md:right-6 border border-purple-500 rounded-xl outline-none">
+                <div className="md:hidden absolute z-40 top-2 right-2 md:right-6 outline-none">
                   <Menu.Button>
                     <IconButton>
                       <MenuIcon className="lg:!text-3xl" />

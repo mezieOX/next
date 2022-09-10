@@ -4,7 +4,7 @@ import Layout from '../components/layout/Layout'
 function PageNotFound() {
   return (
       <Layout>
-          <div>
+          <div className='h-screen flex justify-center items-center'>
               <div>arrow</div>
               <div> page not found</div>
               <div>Home</div>

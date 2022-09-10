@@ -39,7 +39,11 @@ const data = {
           {
             title: 'API Routes',
             text: 'Optionally create API endpoints to provide backend functionality.',
-          },
+    },
+    {
+      title: 'and more',
+      text: 'Support for environment variables, preview mode, custom head tags, automatic polyfills, and more.',
+    },
   ],
 };
 

@@ -1,9 +1,10 @@
+import Image from 'next/image';
 import React from 'react';
 
 function Footer() {
   return (
     <div className="bg-gray-100 p-8">
-      <div className='grid grid-cols-2 gap-8'>
+      <div className='grid grid-cols-2 md:grid-cols-4 gap-8'>
         <div className='space-y-4'>
           <p className='text-black text-sm font-base '>General resources</p>
           <nav>
@@ -54,8 +55,8 @@ function Footer() {
           </nav>
         </div>
           </div>
-          <div>
-              <div></div>
+          <div className="my-10">
+              <div className=""><Image src="/images/download (4).jpg" width={100} height={50} /></div>
               <div className='text-xs text-gray-500 my-10'>Copyright &copy; 2022 Vercel, Inc. All rights reserved.</div>
           </div>
     </div>
