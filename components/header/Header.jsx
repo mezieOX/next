@@ -81,7 +81,7 @@ function Header() {
             </div>
             <div>
               <Menu>
-                <div className="md:hidden md:right-6 border border-purple-500 rounded-xl outline-none bg-white">
+                <div className="md:hidden absolute z-40 top-2 right-2 md:right-6 border border-purple-500 rounded-xl outline-none">
                   <Menu.Button>
                     <IconButton>
                       <MenuIcon className="lg:!text-3xl" />
@@ -89,8 +89,8 @@ function Header() {
                   </Menu.Button>
                   </div>
                 <div>
-                  <Menu.Items className="!absolute top-20 w-full !right-0 h-[540px] outline-none bg-white shadow-inner w-full  font-[500] text-gray-500 pt-2 pb-2 capitalize px-8 flex flex-col !bg-white h-full space-y-7 z-40">
-                    <Menu.Item>
+                  <Menu.Items className="!fixed top-28 w-full !right-0 h-[540px] outline-none shadow-inner w-full  font-[500] text-gray-500 pt-2 pb-2 capitalize px-8 flex flex-col h-full space-y-7 z-40 bg-white">
+                    <Menu.Item className="">
                       {({ active }) => (
                         <Link href="/learn">
                           <a className={`${active && 'text-blue-600'}`}>

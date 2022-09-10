@@ -17,7 +17,7 @@ function Newsletter() {
       <div>
         <div>
           <div className="border border-gray-400 rounded p-2 border flex items-center">
-            <MessageIcon className="!text-gray-500 bg-white !text-base mr-1" />
+            <MessageIcon className="!text-gray-500 bg-white !text-lg mr-1" />
             <input
               type="text"
               className="border-none outline-none flex-grow placeholder:text-sm placeholder:text-base"
