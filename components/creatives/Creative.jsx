@@ -6,8 +6,8 @@ function Creative() {
   return (
       <div className='px-4 flex flex-col'>
           <div className='text-center'>
-        <h3 className='font-bold text-[20px] lg:text-[45px] capitalize'>Who's Using Next.js</h3>
-        <p className='text-sm md:text-xl text-gray-500  font-[600] my-5 lg:text-2xl'>We're honored some of the most talented creatives out there build with Next.js</p>
+        <h3 className='font-bold text-[20px] lg:text-[45px] capitalize'>Who&#39;s Using Next.js</h3>
+        <p className='text-sm md:text-xl text-gray-500  font-[600] my-5 lg:text-2xl'>We&#39;re honored some of the most talented creatives out there build with Next.js</p>
           </div>
           <div className='space-y-10 shadow-xl'>
             <div className="relative w-full h-40">
