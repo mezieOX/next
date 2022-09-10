@@ -8,7 +8,7 @@ import { IconButton } from '@material-ui/core';
 
 function Header() {
   return (
-    <div className="">
+    <div className='fixed w-full top-0 z-40 bg-white sm:h-40 mb-2 shadow-md'>
       <div className="flex flex-col">
         <div className="order-1">
           <div className="bg-white relative lg:flex items-center justify-between h-20 text-black max-w-7xl mx-auto px-4">
@@ -65,7 +65,7 @@ function Header() {
               </Button>
               <Button
                 link={''}
-                className="bg-blue-600 text-meduim md:text-xl lg:px-5 font-[400] md:font-[600] text-white rounded-lg absolute lg:static top-3 md:top-1 lg:top-2 right-14 md:right-20 md:right-4 lg:right-3 px-2.5 py-1.5 lg:py-3"
+                className="!bg-blue-600 text-sm sm:text-meduim md:text-xl lg:px-5 font-[400] md:font-[600] text-white rounded-xl sm:rounded-lg absolute lg:static top-4 md:top-1 lg:top-2 right-14 md:right-20 md:right-4 lg:right-3 px-3 py-2 sm:px-2.5 sm:py-1.5 lg:py-3"
               >
                 learn
               </Button>

@@ -12,15 +12,6 @@ function Cards() {
           <div>
               <Card />
           </div>
-          <div className="shadow md:shadow-0 py-8 pr-0 border md:border-0 space-y-3 hover:shadow-2xl md:hover:shadow-none hover:border-0 w-[90%] md:w-full md:w-auto mx-auto md:max-w-5xl">
-          <div className='md:text-[15px] text-[13px] lg:text-[18px] font-[500] text-gray-700 '><span className="font-bold text-sm ">And more: </span>Support for  
-              <Link href=""><a className='text-blue-500 hover:underline'> environment variables,</a></Link>
-            <Link href=""><a className='text-blue-500 hover:underline'> preview mode,</a></Link>
-              <Link href=""><a className='text-blue-500 hover:underline'> custom head tags, </a></Link>
-              <Link href=""><a className='text-blue-500 hover:underline'> automatic polyfills,  </a></Link>
-              and more.
-              </div>
-              </div>
     </div>
   )
 }
