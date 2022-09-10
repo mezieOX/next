@@ -20,7 +20,7 @@ function Newsletter() {
             <MessageIcon className="!text-gray-500 bg-white !text-lg mr-1" />
             <input
               type="text"
-              className="border-none outline-none flex-grow placeholder:text-sm placeholder:text-base"
+              className="border-none outline-none flex-grow placeholder:text-sm placeholder:text-base mb-[2px] text-sm"
               placeholder=" you@domin.com"
             />
           </div>

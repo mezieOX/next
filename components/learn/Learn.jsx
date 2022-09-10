@@ -4,7 +4,7 @@ import Button from '../ui/button/Button'
 
 function Learn() {
   return (
-      <div className='border-t text-center shadow-inner p-8'>
+      <div className='border-t text-center shadow-inner p-8 max-w-7xl mx-auto'>
           <div className='pb-16 pt-8'>
               <h4 className='md:text-lg text-sm font-[600] capitalize'>Learn Next.js</h4>
               <p className='md:text-[15px] text-xs lg:text-[18px] font-[500] text-gray-700'>Learn Next.js step-by-step and earn points &#x2B50;.</p>

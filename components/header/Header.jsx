@@ -25,32 +25,32 @@ function Header() {
               <nav>
                 <ul className="hidden sm:flex items-center space-x-8 capitalize text-base xl:text-xl text-gray-500 ">
                   <li>
-                    <Link href="">
+                    <Link href="/showcase">
                       <a>showcase</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="">
+                    <Link href="/docs">
                       <a>docs</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="">
+                    <Link href="/blog">
                       <a>blog</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="">
+                    <Link href="/analytics">
                       <a>analytics</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="">
+                    <Link href="/example">
                       <a>examples</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="">
+                    <Link href="/enterprise">
                       <a>enterprise</a>
                     </Link>
                   </li>

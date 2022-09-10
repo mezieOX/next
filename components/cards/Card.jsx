@@ -10,7 +10,7 @@ function Card() {
         {data.card.map(({ title, text }) => (
           <div className='shadow p-3 border space-y-3 hover:shadow-2xl  md:last:shadow-none md:last:border-none hover:border-0 md:last:w-full ' key={title}>
             <h4 className='md:text-lg text-sm font-[600] capitalize'>{title}</h4>
-                <p className='md:text-[15px] text-xs lg:text-[18px] font-[500] text-gray-700'>{text}</p>
+                <p className='md:text-[15px] text-xs lg:text-[18px] font-[500] text-gray-700 leading-7'>{text}</p>
                 <div className='capitalize md:text-[15px] text-xs lg:text-[18px] font-[500] text-blue-500 sm:text-sm hover:underline md:last:hidden '>
                 Documentation <span><ArrowRightAltIcon className="!text-lg"  /></span>
                     </div>

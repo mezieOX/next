@@ -56,7 +56,7 @@ function Footer() {
         </div>
           </div>
           <div className="my-10">
-              <div className=""><Image src="/images/download (4).jpg" width={100} height={50} /></div>
+              <div className="relative w-14 md:w-20 h-[90%] md:h-1/2"><Image src="/images/images.jpg" width={100} height={50} objectFit="contain" /></div>
               <div className='text-xs text-gray-500 my-10'>Copyright &copy; 2022 Vercel, Inc. All rights reserved.</div>
           </div>
     </div>
