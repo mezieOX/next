@@ -88,8 +88,8 @@ function Header() {
                     </IconButton>
                   </Menu.Button>
                 </div>
-                <div className="h-screen bg-white">
-                  <Menu.Items className="h-[100%] outline-none bg-white shadow-inner absolute w-full left-0 font-[500] text-gray-500 pt-2 pb-2 capitalize px-8 flex flex-col h-full space-y-7">
+                <div>
+                  <Menu.Items className="h-screen outline-none bg-white shadow-inner absolute w-full left-0 font-[500] text-gray-500 pt-2 pb-2 capitalize px-8 flex flex-col h-full space-y-7">
                     <Menu.Item>
                       {({ active }) => (
                         <Link href="/learn">
